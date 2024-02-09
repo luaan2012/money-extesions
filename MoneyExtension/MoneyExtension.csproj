@@ -4,6 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Luan Victor</Authors>
+    <Company>luaan201</Company>
+    <PackageDescription>Extensions to convert decimal to integer</PackageDescription>
+    <Description>Extensions to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/luaan2012/money-extesions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/luaan2012/money-extesions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>ico.png</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <Title>Money Extensions</Title>
+    <Summary>Extensions to convert decimal to integer</Summary>
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\ico.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
